@@ -1,0 +1,4 @@
+N� Demande;Libell� site;Ville;Motif de sollicitation;Message du client;Message du Client 2;Date/heure fin d'intervention;Probl�me r�gl�;Message au client
+1;Site A;Paris;Panne de chauffage;Chauffage en panne;Besoin d'une intervention urgente;25/09/2023 14:30;Oui;Intervention effectuée avec succès
+2;Site B;Lyon;Fuite d'eau;Grosse fuite détectée;Urgence, bâtiment inondé;25/09/2023 16:00;Oui;Fuite réparée
+3;Site C;Marseille;Problème électrique;Panne de courant depuis hier;Aucune électricité dans le bâtiment;25/09/2023 18:45;Non;Problème persistant, retour nécessaire
