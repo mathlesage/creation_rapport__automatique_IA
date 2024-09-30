@@ -2,7 +2,7 @@
 
 **Description**
 
-Ce projet a pour objectif de transformer un fichier CSV contenant des données d'interventions en un rapport Word professionnel et présentable. En utilisant un LLM de 40B de paramètre, nous automatisons le processus de génération de rapports pour améliorer l'efficacité et la qualité de la présentation des informations.
+Ce projet a pour objectif de transformer un fichier CSV contenant des données d'interventions en un rapport Word professionnel et présentable. En utilisant le LLM Alfred-40B-0723, nous automatisons le processus de génération de rapports pour améliorer l'efficacité et la qualité de la présentation des informations.
 
 **Fonctionnalités**
 
