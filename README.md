@@ -2,7 +2,7 @@
 
 **Description**
 
-Ce projet a pour objectif de transformer un fichier CSV contenant des données d'interventions Dalkia en un rapport Word professionnel et présentable. En utilisant le LLM de Lighthon, nous automatisons le processus de génération de rapports pour améliorer l'efficacité et la qualité de la présentation des informations.
+Ce projet a pour objectif de transformer un fichier CSV contenant des données d'interventions en un rapport Word professionnel et présentable. En utilisant un LLM de 40B de paramètre, nous automatisons le processus de génération de rapports pour améliorer l'efficacité et la qualité de la présentation des informations.
 
 **Fonctionnalités**
 
@@ -17,5 +17,4 @@ Langages : Python
 Bibliothèques :
 pandas pour le traitement des données
 python-docx pour la génération de documents Word
-Lighthon API pour les fonctionnalités d'IA
 Format de données : CSV
