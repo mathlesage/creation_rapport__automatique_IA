@@ -79,11 +79,11 @@ def write_prompt(donnee: dict) -> str:
             -la raison de l'echec donnée par toi le techniciens est {donnee["Message au client"]} 
             -l'intervention n'a pas été reussite
             -la date et l'heure de la fin de la mission est  {donnee["Date/heure fin d'intervention"]}
-            -l'entreprise est dalkia. 
+            -l'entreprise est Dal. 
             -Tu es John Doe le techniciens en charge de l'intervention
             Le rapport doit commencer par:
             -Bonjour,
-            Je suis John Doe, technicien chez Dalkia, et je me permets de vous écrire suite à 
+            Je suis John Doe, technicien chez Dal, et je me permets de vous écrire suite à 
             Puis suivre l'ordre:
             -le lieux, 
             -la description de la demande, 
@@ -110,10 +110,10 @@ def write_prompt(donnee: dict) -> str:
             -la demande du client avant l'intervention est {donnee["Message du client"]}
             -le message du techniciens après l'intervention est {donnee["Message au client"]} 
             -l'intervention a été réussite
-            -l'entreprise est dalkia. 
+            -l'entreprise est Dal. 
             Le rapport doit commencer par:
             -Bonjour,
-            Je suis John Doe, technicien chez Dalkia, et je me permets de vous écrire suite à
+            Je suis John Doe, technicien chez Dal, et je me permets de vous écrire suite à
             Puis suivre l'ordre:
             -le lieux, 
             -la date,
@@ -133,7 +133,7 @@ def write_prompt(donnee: dict) -> str:
     model="alfred-40b-1123", #alfred-vllm
     messages=[
 
-        {"role": "system", "content" : f"Tu es John Doe un {metier} de chez Dalkia."},
+        {"role": "system", "content" : f"Tu es John Doe un {metier} de chez Dal."},
 
         {"role":"user", "name":"fiche_de_poste",
         "content":prompttt}],
